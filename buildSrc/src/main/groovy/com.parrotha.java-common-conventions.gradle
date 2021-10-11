@@ -7,6 +7,10 @@ plugins {
     id 'java'
 }
 
+ext {
+    projectVersion = '0.2'
+}
+
 repositories {
     // Use JCenter for resolving dependencies.
     jcenter()

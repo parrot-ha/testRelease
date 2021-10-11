@@ -6,6 +6,8 @@ plugins {
     id 'com.parrotha.java-application-conventions'
 }
 
+version "${projectVersion}"
+
 dependencies {
     implementation project(':utilities')
 }
